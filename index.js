@@ -35,6 +35,6 @@ const init = async () => {
         client.on(e.name, async (...args) => await e.run(...args));
         delete require.cache[require.resolve(`./events/${event}`)];
     }
-    client.login('NjU5MTAwMjE3NzY5MDY2NTE4.XgJY6Q.922HU-hnKKIl5iD_YpsmfJFeYTg').then(() => {});
+    client.login('Your token').then(() => {});
 }
 init().then(() => {});
