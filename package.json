@@ -1,0 +1,20 @@
+{
+  "name": "perfect-bot-example",
+  "version": "1.0.0",
+  "description": "This is a perfect Discord Bot example.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "discord.js": "^12.5.1",
+    "klaw": "^3.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/MinecraftCiach/perfect-bot-example"
+  }
+}
